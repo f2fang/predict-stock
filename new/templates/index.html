@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>S&P 500 AI 预测系统</title></head>
+<body>
+  <h1>📊 <strong>S&P 500 AI</strong> 预测系统</h1>
+
+  <h2>📈 今日预测</h2>
+  <p>上涨概率：<strong>{{ daily_prediction.prediction_probability }}%</strong></p>
+  <img src="/{{ daily_prediction.shap_plot }}" width="700">
+
+  <h2>📅 本月预测</h2>
+  <p>预期涨幅：<strong>{{ monthly_prediction.predicted_monthly_return }}%</strong></p>
+  <img src="/{{ monthly_prediction.shap_bar_path }}" width="700">
+
+  <p><a href="/history">🔍 查看历史预测 ➜</a></p>
+</body>
+</html>
+

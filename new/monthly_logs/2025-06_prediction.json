@@ -1,0 +1,13 @@
+{
+  "month": "2025-06",
+  "predicted_monthly_return": -0.9,
+  "shap_bar_path": "static/2025-06_shap_bar.png",
+  "macro_features": {
+    "MoneySupply_M2_lag": 21706.8,
+    "CPI_lag": 319.615,
+    "FedFundsRate_lag": 4.33,
+    "FedBalanceSheet_lag": 6740253.0,
+    "ReverseRepo_lag": 399.167,
+    "TenYearYield_lag": 4.28
+  }
+}

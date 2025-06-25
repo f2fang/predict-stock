@@ -1,0 +1,7 @@
+{
+  "symbol": "IAU",
+  "date": "2025-06-09",
+  "probability": 35.75,
+  "accuracy": 51.42,
+  "shap_image": "IAU_shap_force_cpu.png"
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>每月预测详情</title></head>
+<body>
+  <h2>📅 {{ data.month }} 的预测详情</h2>
+  <p>预测涨幅：<strong>{{ data.predicted_monthly_return }}%</strong></p>
+  <img src="/{{ data.shap_bar_path }}" width="900">
+  <pre>{{ data.macro_features }}</pre>
+  <p><a href="/history">← 返回历史列表</a></p>
+</body>
+</html>
+

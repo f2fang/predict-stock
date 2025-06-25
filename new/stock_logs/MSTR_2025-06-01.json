@@ -1,0 +1,7 @@
+{
+  "symbol": "MSTR",
+  "date": "2025-05-30",
+  "probability": 58.369998931884766,
+  "accuracy": 37.5,
+  "shap_image": "MSTR_shap_force_cpu.png"
+}

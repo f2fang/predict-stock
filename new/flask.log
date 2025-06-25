@@ -1,0 +1,73 @@
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:48] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:50] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:51] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+✅ Today's prediction already exists. Skipping re-computation.
+✅ This month's prediction already exists.
+<IPython.core.display.HTML object>
+✅ MSTR 今天已预测，跳过
+<IPython.core.display.HTML object>
+✅ NVDA 今天已预测，跳过
+<IPython.core.display.HTML object>
+✅ IAU 今天已预测，跳过
+ * Serving Flask app 'app_stocks'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.138.0.2:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (inotify)
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:56] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:58] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/home/hzieeff/.local/lib/python3.10/site-packages/xgboost/training.py:183: UserWarning: [17:54:59] WARNING: /workspace/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+ * Debugger is active!
+ * Debugger PIN: 585-790-472
+98.207.179.156 - - [25/Jun/2025 17:55:19] "GET / HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:19] "GET /static/2025-06-25_shap_force_plot.png HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:20] "GET /static/2025-06_shap_bar.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:55:22] "GET /stocks HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:23] "GET /static/MSTR_shap_force_cpu.png HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:23] "GET /static/NVDA_shap_force_cpu.png HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:23] "GET /static/IAU_shap_force_cpu.png HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:25] "GET /stocks/history HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:27] "GET / HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:55:27] "GET /static/2025-06_shap_bar.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:55:27] "GET /static/2025-06-25_shap_force_plot.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:24] "GET /stocks HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:24] "GET /static/IAU_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:24] "GET /static/MSTR_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:24] "GET /static/NVDA_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:26] "GET /stocks/history HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:29] "GET /stocks/view?file=MSTR_2025-05-26.json HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:29] "GET /static/MSTR_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:34] "GET /stocks/history HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:37] "GET /stocks HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/NVDA_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/MSTR_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/IAU_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /stocks HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/NVDA_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/IAU_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:38] "GET /static/MSTR_shap_force_cpu.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:39] "GET /stocks/history HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:43] "GET / HTTP/1.1" 200 -
+98.207.179.156 - - [25/Jun/2025 17:57:43] "GET /static/2025-06-25_shap_force_plot.png HTTP/1.1" 304 -
+98.207.179.156 - - [25/Jun/2025 17:57:43] "GET /static/2025-06_shap_bar.png HTTP/1.1" 304 -

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>历史预测</title></head>
+<body>
+  <h2>📂 历史预测文件总览</h2>
+
+  <p><a href="/history/daily">📈 每日预测对比图 ➜</a></p>
+  <p><a href="/history/monthly">📅 每月预测对比图 ➜</a></p>
+
+
+  <h3>📄 每日预测记录</h3>
+  <ul>
+    {% for file in daily_files %}
+      <li><a href="/history/daily/view?file={{ file }}">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h3>📄 每月预测记录</h3>
+  <ul>
+    {% for file in monthly_files %}
+      <li><a href="/history/monthly/view?file={{ file }}">{{ file }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <p><a href="/">← 返回首页</a></p>
+</body>
+</html>
+

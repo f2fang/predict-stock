@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>📈 股票历史预测</title>
+</head>
+<body>
+  <h1>📅 股票预测历史记录</h1>
+
+  {% for symbol, files in history.items() %}
+    <h2>{{ symbol }}</h2>
+    <ul>
+      {% for file in files %}
+        <li><a href="/stocks/view?file={{ file }}">{{ file }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+  <p><a href="/stocks">← 返回今日预测</a></p>
+</body>
+</html>
+

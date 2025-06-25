@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>📈 股票涨跌预测</title>
+</head>
+<body>
+  <h1>📊 今日股票预测结果</h1>
+
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr>
+        <th>股票代码</th>
+        <th>日期</th>
+        <th>预测上涨概率</th>
+        <th>测试准确率</th>
+        <th>SHAP 图</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for stock in predictions %}
+      <tr>
+        <td>{{ stock.symbol }}</td>
+        <td>{{ stock.date }}</td>
+        <td>{{ stock.probability }}%</td>
+        <td>{{ stock.accuracy }}%</td>
+        <td>
+          {% if stock.shap_image != "none.png" %}
+          <img src="/static/{{ stock.shap_image }}" width="300">
+          {% else %}
+          <em>无图</em>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <p><a href="/stocks/history">📅 查看历史预测记录</a></p>
+
+  <p><a href="/">← 返回首页sp500</a></p>
+</body>
+</html>
+

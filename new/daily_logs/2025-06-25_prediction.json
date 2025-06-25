@@ -1,0 +1,13 @@
+{
+  "date": "2025-06-25",
+  "prediction_probability": 41.21,
+  "shap_plot": "static/2025-06-25_shap_force_plot.png",
+  "top_features": {
+    "MoneySupply_M2_lag": 21862.4,
+    "CPI_lag": 320.321,
+    "FedFundsRate_lag": 4.33,
+    "FedBalanceSheet_lag": 6709277.0,
+    "ReverseRepo_lag": 250.601,
+    "TenYearYield_lag": 4.28
+  }
+}

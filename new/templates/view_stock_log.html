@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ data.symbol }} 预测详情</title>
+</head>
+<body>
+  <h1>{{ data.symbol }} - {{ data.date }} 预测详情</h1>
+
+  <p><strong>预测上涨概率：</strong> {{ data.probability }}%</p>
+  <p><strong>测试准确率：</strong> {{ data.accuracy }}%</p>
+
+  <h3>🔍 SHAP 图解释</h3>
+  {% if data.shap_image != "none.png" %}
+    <img src="/static/{{ data.shap_image }}" width="600">
+  {% else %}
+    <p><em>无图数据</em></p>
+  {% endif %}
+
+  <p><a href="/stocks/history">← 返回历史记录</a></p>
+</body>
+</html>
+

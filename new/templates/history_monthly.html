@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>每月预测对比</title></head>
+<body>
+  <h1>📅 每月预测 vs 实际</h1>
+
+  <img src="{{ plot_url }}" width="900">
+
+  <table border="1" cellpadding="6">
+    <thead>
+      <tr>
+        <th>月份</th>
+        <th>预测涨幅 (%)</th>
+        <th>实际涨幅 (%)</th>
+        <th>误差 (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in records %}
+      <tr>
+        <td>{{ row.month.strftime('%Y-%m') }}</td>
+        <td>{{ row.predicted_monthly_return }}</td>
+        <td>{{ row.Actual_Return }}</td>
+        <td>{{ row.Error }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <p><a href="/">← 返回首页</a></p>
+</body>
+</html>
+

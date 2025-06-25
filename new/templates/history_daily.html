@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>每日预测对比</title></head>
+<body>
+  <h1>📈 每日预测 vs 实际</h1>
+
+  <img src="{{ plot_url }}" width="900">
+
+  <table border="1" cellpadding="6">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>预测上涨概率 (%)</th>
+        <th>实际涨跌</th>
+        <th>预测是否正确</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in records %}
+      <tr>
+        <td>{{ row.date.strftime('%Y-%m-%d') }}</td>
+        <td>{{ row.prediction_probability }}</td>
+        <td>{{ '↑' if row.Actual_Up else '↓' }}</td>
+        <td>{{ '✅' if row.Correct else '❌' }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <p><a href="/">← 返回首页</a></p>
+</body>
+</html>
+

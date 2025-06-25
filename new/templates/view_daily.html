@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>每日预测详情</title></head>
+<body>
+  <h2>📈 {{ data.date }} 的预测详情</h2>
+  <p>预测上涨概率：<strong>{{ data.prediction_probability }}%</strong></p>
+  <img src="/{{ data.shap_plot }}" width="900">
+  <pre>{{ data.top_features }}</pre>
+  <p><a href="/history">← 返回历史列表</a></p>
+</body>
+</html>
+

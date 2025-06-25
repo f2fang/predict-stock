@@ -1,0 +1,7 @@
+{
+  "symbol": "NVDA",
+  "date": "2025-05-23",
+  "probability": 73.36000061035156,
+  "accuracy": 48.87,
+  "shap_image": "NVDA_shap_force_cpu.png"
+}
